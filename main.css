@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body { background-color: white; 
+}
+header {
+	background-color: pink;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navlist a {
+	display: inline;
+	font-family: garamond;
+	color: grey;
+	text-decoration: underline;
+}
+.navlist li {
+	display: inline;
+	font-family: garamond;
+}
+.navlist ul {
+	padding-left: 15px;
+	display: inline;
+}
+.navlist a:hover {
+	color: white;
+}
+/* styling overrides*/
+i, em {
+	font-style: italic;
+}
+h1, h2 {
+	font-family: monotype corsiva;
+}
+h1 {
+	text-align: center;
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 75px;
+	background-color: coral;
+}
+h2 {
+	color: coral;
+	padding: 10px 5px 5px 15px;
+	font-size: 35px;
+	text-align: auto;
+	text-decoration: underline;
+}
+.aboutintro {
+	padding-bottom: 40px;
+}
+.aboutintro h2 {
+	text-align: center;
+}
+.aboutintro p {
+	text-align: center;
+}
+p {
+	color: grey;
+	padding-left: 15px;
+	padding-top: 5px;
+	font-family: garamond;
+	font-size: 20px;
+}
+ul {padding-left: 40px;
+	padding-top: 10px;
+	color: grey;
+	font-family: garamond;
+	font-size: 17px;
+}
+li {
+	display: list-item;
+	list-style-type: square;
+	font-size: 20px;
+}
+.company a {
+	color: coral;
+	font-size: 20px;
+}
+.company a:hover {
+	text-decoration: underline;}
+.company p {
+	padding-left: 15px;
+}
+a {
+	text-decoration: none;
+}
+#benefit p {
+	color: grey;
+}
+#benefit a {
+	color: coral;
+}
+#benefit a:hover {
+	text-decoration: underline;
+}
+aside {
+	float: right;
+	float: top;
+	text-align: center;
+	max-width: 500px;
+	color: grey;
+	background-color: pink;
+	list-style-type: none;
+	border-width: 5px;
+	border-style: groove;
+	border-color: orange;
+}
+.comminv section {
+	float: left;
+}
+.centercontent {
+	text-align: center;
+}
