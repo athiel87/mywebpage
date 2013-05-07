@@ -86,16 +86,19 @@ h2 {
 	color: coral;
 	padding: 10px 5px 5px 15px;
 	font-size: 35px;
-	text-align: auto;
+	text-align: center;
 	text-decoration: underline;
 }
-.aboutintro {
+.container {
+	margin: 30px 0px 30px;
+}
+.pageintro {
 	padding-bottom: 40px;
 }
-.aboutintro h2 {
+.pageintro h2 {
 	text-align: center;
 }
-.aboutintro p {
+.pageintro p {
 	text-align: center;
 }
 p {
@@ -105,7 +108,7 @@ p {
 	font-family: garamond;
 	font-size: 20px;
 }
-ul {padding-left: 40px;
+ul {padding-left: 30px;
 	padding-top: 10px;
 	color: grey;
 	font-family: garamond;
@@ -121,37 +124,76 @@ li {
 	font-size: 20px;
 }
 .company a:hover {
-	text-decoration: underline;}
+	text-decoration: underline;
+	color: white;
+}
 .company p {
 	padding-left: 15px;
 }
 a {
 	text-decoration: none;
 }
-#benefit p {
-	color: grey;
-}
-#benefit a {
-	color: coral;
-}
-#benefit a:hover {
-	text-decoration: underline;
-}
 aside {
 	float: right;
-	float: top;
 	text-align: center;
-	max-width: 500px;
+	width: 170px;
 	color: grey;
 	background-color: pink;
-	list-style-type: none;
 	border-width: 5px;
 	border-style: groove;
 	border-color: orange;
+	margin-right: 30px;
+	height: 362
+}
+aside ul {
+	padding: 10px 10px 0px 30px;
+	text-align: left;
+}
+aside h2 {
+	text-align: left;
+}
+aside li {
+	list-style-type: circle;
+	font-size: 14px;
+	padding-bottom: 3px;
 }
 .comminv section {
 	float: left;
+	background-color: pink;
+	height: 372px;
+	width: 450px;
+
 }
-.centercontent {
+.jobhistory section {
+	float: left;
+	background-color: pink;
+	padding-bottom: 10px;
+	margin: 0 30px;
+	width: 450px;
+}
+.pageintro {
 	text-align: center;
+}
+.section2 section {
+	background-color: pink;
+	margin: 30px 15px 0px 30px;
+	width: 890px;
+	padding: 20px;
+}
+footer {
+	clear: both;
+	background-color: coral;
+	padding: 20px 15px;
+	color: white;
+	text-align: left;
+	font-size: 40px;
+	text-shadow:
+	7px -7px 10px green,
+	9px -9px 12px white;
+}
+section {
+	float: left;
+}
+.gradientexp {
+	background-image: linear-gradient(rgb(100,120,150),rgb(180,200,220));
 }
